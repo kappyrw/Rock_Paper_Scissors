@@ -7,9 +7,16 @@
 
 
 function getComputerChoice() {
+
     const choices = ["Rock", "Paper", "Scissors"];
-    const randomIndex = Math.floor(Math.random() * choices.length);
+
+    const randomNumber = Math.random();
+  const multipliedNumber = randomNumber * choices.length;
+  const randomIndex = Math.floor(multipliedNumber);
     return choices[randomIndex];
+
+
+
 }
 
 // Function to play a one round of Rock Paper Scissors

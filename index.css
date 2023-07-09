@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(34, 133, 233);
+    padding: 20px;
+    margin: 30px;;
+    background-color: rgb(190, 195, 201);
 }
 h3{
     color: black;
